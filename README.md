@@ -68,5 +68,6 @@ The following shows basic folder structure.
 * scipy 1.1.0
 
 ## Acknowledgements
-This implementation has been based on [tensorflow-generative-model-collections](https://github.com/hwalsuklee/tensorflow-generative-model-collections) and tested with Pytorch 0.4.0 on Ubuntu 16.04 using GPU.
-
+This implementation has been based on [tensorflow-generative-model-collections](https://github.com/hwalsuklee/tensorflow-generative-model-collections).
+I tried to implement this repository as much as possible with original, but some models are a little different due to some methods was dropped from Scipy.
+Also, dataloader with different dimension read in  image Normalization
